@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2736EA5A2916520E0021CE0F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2736EA592916520E0021CE0F /* Kingfisher */; };
 		278E90342903B5E700D589EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E90332903B5E700D589EB /* AppDelegate.swift */; };
 		278E90362903B5E700D589EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E90352903B5E700D589EB /* SceneDelegate.swift */; };
 		278E90382903B5E700D589EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E90372903B5E700D589EB /* ViewController.swift */; };
-		278E903B2903B5E700D589EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278E90392903B5E700D589EB /* Main.storyboard */; };
 		278E903D2903B5EA00D589EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278E903C2903B5EA00D589EB /* Assets.xcassets */; };
 		278E90402903B5EA00D589EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278E903E2903B5EA00D589EB /* LaunchScreen.storyboard */; };
 		278E904B2903B5EA00D589EB /* LecFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E904A2903B5EA00D589EB /* LecFourTests.swift */; };
 		278E90552903B5EB00D589EB /* LecFourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E90542903B5EB00D589EB /* LecFourUITests.swift */; };
 		278E90572903B5EB00D589EB /* LecFourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E90562903B5EB00D589EB /* LecFourUITestsLaunchTests.swift */; };
+		278E90642903EE7F00D589EB /* TableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E90632903EE7F00D589EB /* TableDemoViewController.swift */; };
+		27917183291F79C0005B518F /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27917182291F79C0005B518F /* MovieDetailViewController.swift */; };
+		2791C52E290CF61D00E78FC2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2791C52D290CF61D00E78FC2 /* SnapKit */; };
+		2791C530290CF76600E78FC2 /* DetailsVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2791C52F290CF76600E78FC2 /* DetailsVIewController.swift */; };
+		27927DF229163C3A005B99F8 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27927DF129163C3A005B99F8 /* MoviesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +45,6 @@
 		278E90332903B5E700D589EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		278E90352903B5E700D589EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		278E90372903B5E700D589EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		278E903A2903B5E700D589EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		278E903C2903B5EA00D589EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		278E903F2903B5EA00D589EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		278E90412903B5EA00D589EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		278E90502903B5EB00D589EB /* LecFourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LecFourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		278E90542903B5EB00D589EB /* LecFourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecFourUITests.swift; sourceTree = "<group>"; };
 		278E90562903B5EB00D589EB /* LecFourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecFourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		278E90632903EE7F00D589EB /* TableDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDemoViewController.swift; sourceTree = "<group>"; };
+		27917182291F79C0005B518F /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		2791C52F290CF76600E78FC2 /* DetailsVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVIewController.swift; sourceTree = "<group>"; };
+		27927DF129163C3A005B99F8 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2736EA5A2916520E0021CE0F /* Kingfisher in Frameworks */,
+				2791C52E290CF61D00E78FC2 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,10 +112,13 @@
 				278E90332903B5E700D589EB /* AppDelegate.swift */,
 				278E90352903B5E700D589EB /* SceneDelegate.swift */,
 				278E90372903B5E700D589EB /* ViewController.swift */,
-				278E90392903B5E700D589EB /* Main.storyboard */,
+				27917182291F79C0005B518F /* MovieDetailViewController.swift */,
+				278E90632903EE7F00D589EB /* TableDemoViewController.swift */,
+				2791C52F290CF76600E78FC2 /* DetailsVIewController.swift */,
 				278E903C2903B5EA00D589EB /* Assets.xcassets */,
 				278E903E2903B5EA00D589EB /* LaunchScreen.storyboard */,
 				278E90412903B5EA00D589EB /* Info.plist */,
+				27927DF129163C3A005B99F8 /* MoviesModel.swift */,
 			);
 			path = LecFour;
 			sourceTree = "<group>";
@@ -143,6 +156,10 @@
 			dependencies = (
 			);
 			name = LecFour;
+			packageProductDependencies = (
+				2791C52D290CF61D00E78FC2 /* SnapKit */,
+				2736EA592916520E0021CE0F /* Kingfisher */,
+			);
 			productName = LecFour;
 			productReference = 278E90302903B5E700D589EB /* LecFour.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +232,10 @@
 				Base,
 			);
 			mainGroup = 278E90272903B5E600D589EB;
+			packageReferences = (
+				2791C52C290CF61D00E78FC2 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				2736EA582916520E0021CE0F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 278E90312903B5E700D589EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +254,6 @@
 			files = (
 				278E90402903B5EA00D589EB /* LaunchScreen.storyboard in Resources */,
 				278E903D2903B5EA00D589EB /* Assets.xcassets in Resources */,
-				278E903B2903B5E700D589EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278E90642903EE7F00D589EB /* TableDemoViewController.swift in Sources */,
+				2791C530290CF76600E78FC2 /* DetailsVIewController.swift in Sources */,
+				27927DF229163C3A005B99F8 /* MoviesModel.swift in Sources */,
 				278E90382903B5E700D589EB /* ViewController.swift in Sources */,
+				27917183291F79C0005B518F /* MovieDetailViewController.swift in Sources */,
 				278E90342903B5E700D589EB /* AppDelegate.swift in Sources */,
 				278E90362903B5E700D589EB /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		278E90392903B5E700D589EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				278E903A2903B5E700D589EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		278E903E2903B5EA00D589EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +460,6 @@
 				INFOPLIST_FILE = LecFour/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +487,6 @@
 				INFOPLIST_FILE = LecFour/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -604,6 +618,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2736EA582916520E0021CE0F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.4.1;
+			};
+		};
+		2791C52C290CF61D00E78FC2 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2736EA592916520E0021CE0F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2736EA582916520E0021CE0F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		2791C52D290CF61D00E78FC2 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2791C52C290CF61D00E78FC2 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 278E90282903B5E600D589EB /* Project object */;
 }
